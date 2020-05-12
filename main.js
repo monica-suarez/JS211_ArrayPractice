@@ -27,3 +27,11 @@ carsInReverse.pop();
 console.log(carsInReverse);
 carsInReverse.shift();
 carsInReverse.unshift("Maserati");
+let number = [23, 45, 0, 2];
+number.forEach((element)=>{
+  console.log(element + 2)
+});
+const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34];
+numbers.forEach((element)=>{
+  console.log(element + 2)
+});
